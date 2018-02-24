@@ -4,9 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication4
+namespace ConsoleApp00
 {
-    class Square
+    class Program
     {
+        static void Main(string[] args)
+        {
+            Console.Write(
+                " ____________\n" +
+                "|            |\n" +
+                "|            |\n" +
+                "|            |\n" +
+                "|            |\n" +
+                "|            |\n" +
+                "|____________|\n");
+        }
+
     }
 }
