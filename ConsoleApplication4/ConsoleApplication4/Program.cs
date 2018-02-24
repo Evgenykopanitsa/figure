@@ -10,14 +10,8 @@ namespace ConsoleApplication4
     {
         static void Main(string[] args)
         {
-            Console.Write(
-                " ____________\n" +
-                "|            |\n" +
-                "|            |\n" +
-                "|            |\n" +
-                "|            |\n" +
-                "|            |\n" +
-                "|____________|\n");
+            var c = new Circle();
+            c.Draw();
         }
 
     }
