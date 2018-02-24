@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp00
+namespace ConsoleApplication4
 {
-    class Square
+    public class Square : Figure
     {
-        static void Main(string[] args)
+        public override void Draw()
         {
+
             Console.Write(
                 " ____________\n" +
                 "|            |\n" +
