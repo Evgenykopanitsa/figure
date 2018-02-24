@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 namespace ConsoleApplication4
 {
-    class Circle
+    public class Circle : Figure
     {
-        static void Main(string[] args)
+        public override void Draw()
         {
+
             Console.Write(
                 "   *   \n" +
                 " *   * \n" +
