@@ -12,6 +12,8 @@ namespace ConsoleApplication4
         {
             var c = new Circle();
             c.Draw();
+            var s = new Square();
+            s.Draw();
         }
 
     }
